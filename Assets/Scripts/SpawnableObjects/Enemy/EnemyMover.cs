@@ -25,7 +25,7 @@ public class EnemyMover : MonoBehaviour
 
     private IEnumerator Moving()
     {
-        while (true)
+        while (enabled)
         {
             yield return null;
 
